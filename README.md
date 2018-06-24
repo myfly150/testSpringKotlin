@@ -2,6 +2,7 @@
 A simple project to test the kotlin + spring boot + mybatis. A simple tenant order example.
 ## Quick Start 
 * If you have installed maven, just run `mvn spring-boot:run`，the application will start.
+* If you have installed IntelliJ IDEA(maybe AS is also effective), open as a maven project, then run the main method in `src/main/kotlin/per/mapt/kt/testkt/TestKtApplication.kt`
 * Then, you need to init the h2 database by `localhost:8080/h2-console`. 
 * Default database url is `jdbc:h2:~/test`, username & password is sa.
 * There is db.sql to init the database in `src/main/resources/`.
